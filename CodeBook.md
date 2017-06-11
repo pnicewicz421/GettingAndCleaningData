@@ -1,0 +1,111 @@
+Tidy.txt
+=================
+Features
+
+The features in tidy.txt list the mean of the features found for each activity and subject for the UCI HAR activity. A description of the features is as follows:
+
+activity: the name of the activity 
+subject: a unique identifier of the subject
+
+The remaining features are the mean of the features from the UCI HAR database for each activity and each subject.
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeaccelerationXYZ and timegyroXYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timebodyaccelerationXYZ and timegravityaccelerationXYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain jerk signals (timebodyaccelerationjerkXYZ and tbodygyrojerkXYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timebodyaccelerationmagnitude, timegravityaccelerationmagnitude, timebodyaccelerationjerkmagnitude, timebodygyromagnitude, timebodygyrojerkmagnitude). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequencybodyaccelerationXYZ, frequencybodyaccelerationjerkXYZ, frequencybodygyroXYZ, frequencybodyaccelerationjerkmagnitude, frequencybodygyromagnitude, frequencybodygyrojerkmagnitude.
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+timebodyaccelerationXYZ
+timegravityaccelerationXYZ
+timebodyaccelerationjerkXYZ
+timebodygyroXYZ
+timebodygyrojerkXYZ
+timebodyaccelerationmagnitude
+timegravityaccelerationmagnitude
+timebodyaccelerationjerkmagnitude
+timebodygyromagnitude
+timebodygyrojerkmagnitude
+frequencybodyaccelerationXYZ
+frequencybodyaccelerationjerkXYZ
+frequencybodygyroXYZ
+frequencybodyaccelerationmagnitude
+frequencybodyaccelerationjerkmagnitude
+frequencybodygyromagnitude
+frequencybodygyrojerkmagnitude
+
+The set of variables that were estimated from these signals are: 
+
+mean: Mean value
+standarddeviation: Standard deviation
+
+The complete list of variables of each feature vector is below:
+
+timebodyaccelerationmeanX
+timebodyaccelerationmeanY
+timebodyaccelerationmeanZ
+timebodyaccelerationstandarddeviationX
+timebodyaccelerationstandarddeviationY
+timebodyaccelerationstandarddeviationZ
+timegravityaccelerationmeanX
+timegravityaccelerationmeanY
+timegravityaccelerationmeanZ
+timegravityaccelerationstandarddeviationX
+timegravityaccelerationstandarddeviationY
+timegravityaccelerationstandarddeviationZ
+timebodyaccelerationjerkmeanX
+timebodyaccelerationjerkmeanY
+timebodyaccelerationjerkmeanZ
+timebodyaccelerationjerkstandarddeviationX
+timebodyaccelerationjerkstandarddeviationY
+timebodyaccelerationjerkstandarddeviationZ
+timebodygyromeanX
+timebodygyromeanY
+timebodygyromeanZ
+timebodygyrostandarddeviationX
+timebodygyrostandarddeviationY
+timebodygyrostandarddeviationZ
+timebodygyrojerkmeanX
+timebodygyrojerkmeanY
+timebodygyrojerkmeanZ
+timebodygyrojerkstandarddeviationX
+timebodygyrojerkstandarddeviationY
+timebodygyrojerkstandarddeviationZ
+timebodyaccelerationmagnitudemean
+timebodyaccelerationmagnitudestandarddeviation
+timegravityaccelerationmagnitudemean
+timegravityaccelerationmagnitudestandarddeviation
+timebodyaccelerationjerkmagnitudemean
+timebodyaccelerationjerkmagnitudestandarddeviation
+timebodygyromagnitudemean
+timebodygyromagnitudestandarddeviation
+timebodygyrojerkmagnitudemean
+timebodygyrojerkmagnitudestandarddeviation
+frequencybodyaccelerationmeanX
+frequencybodyaccelerationmeanY
+frequencybodyaccelerationmeanZ
+frequencybodyaccelerationstandarddeviationX
+frequencybodyaccelerationstandarddeviationY
+frequencybodyaccelerationstandarddeviationZ
+frequencybodyaccelerationjerkmeanX
+frequencybodyaccelerationjerkmeanY
+frequencybodyaccelerationjerkmeanZ
+frequencybodyaccelerationjerkstandarddeviationX
+frequencybodyaccelerationjerkstandarddeviationY
+frequencybodyaccelerationjerkstandarddeviationZ
+frequencybodygyromeanX
+frequencybodygyromeanY
+frequencybodygyromeanZ
+frequencybodygyrostandarddeviationX
+frequencybodygyrostandarddeviationY
+frequencybodygyrostandarddeviationZ
+frequencybodyaccelerationmagnitudemean
+frequencybodyaccelerationmagnitudestandarddeviation
+frequencybodybodyaccelerationjerkmagnitudemean
+frequencybodybodyaccelerationjerkmagnitudestandarddeviation
+frequencybodybodygyromagnitudemean
+frequencybodybodygyromagnitudestandarddeviation
+frequencybodybodygyrojerkmagnitudemean
+frequencybodybodygyrojerkmagnitudestandarddeviation
